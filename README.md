@@ -1,6 +1,12 @@
 # FlowTask
 
-Application web fullstack de gestion de tâches organisées par périodes temporelles.
+## 👤 MADANI Mehdi Etudiant à l'ESGI spécialisé en architecture logicielle
+
+Projet personnel développé dans le cadre de l'apprentissage de la stack JS complète.
+
+---
+
+Application web fullstack JS de gestion de tâches organisées par périodes temporelles.
 
 ## 📋 Présentation
 
@@ -238,9 +244,9 @@ L'application s'ouvre sur `http://localhost:3000`
 - Pas de framework CSS externe : styles personnalisés avec CSS pur
 - Architecture simple et lisible, prête à être étendue
 
-## 👤 Auteur
+## 👤 MADANI Mehdi Etudiant à l'ESGI spécialisé en architecture logicielle
 
-Projet personnel développé dans le cadre de l'apprentissage du développement web fullstack.
+Projet personnel développé dans le cadre de l'apprentissage de la stack JS.
 
 ---
 
