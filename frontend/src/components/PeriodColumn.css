@@ -1,0 +1,137 @@
+.period-column {
+  flex: 1;
+  min-width: 300px;
+  background-color: #f9fafb;
+  border-radius: 0.5rem;
+  border: 1px solid #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  max-height: 80vh;
+}
+
+.period-header {
+  padding: 1rem;
+  background-color: #ffffff;
+  border-bottom: 2px solid #e5e7eb;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.period-header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.period-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #111827;
+  margin: 0 0 0.5rem 0;
+}
+
+.period-dates {
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin: 0 0 0.5rem 0;
+}
+
+.period-task-count {
+  font-size: 0.75rem;
+  color: #9ca3af;
+  font-weight: 500;
+}
+
+.period-tasks {
+  flex: 1;
+  overflow-y: auto;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.period-empty {
+  text-align: center;
+  padding: 2rem;
+  color: #9ca3af;
+  font-size: 0.875rem;
+}
+
+.tasks-separator {
+  margin: 1rem 0;
+  padding: 0.5rem 0;
+  border-top: 1px solid #e5e7eb;
+  text-align: center;
+}
+
+.tasks-separator span {
+  font-size: 0.75rem;
+  color: #9ca3af;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.period-delete-btn {
+  background: none;
+  border: none;
+  font-size: 1.25rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 0.375rem;
+  transition: background-color 0.2s;
+  flex-shrink: 0;
+}
+
+.period-delete-btn:hover:not(:disabled) {
+  background-color: #fee2e2;
+}
+
+.period-delete-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.period-delete-confirm {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #fef3c7;
+  border: 1px solid #fbbf24;
+  border-radius: 0.5rem;
+}
+
+.delete-confirm-message {
+  margin: 0 0 0.75rem 0;
+  font-size: 0.875rem;
+  color: #92400e;
+  line-height: 1.5;
+}
+
+.delete-error-message {
+  margin: 0 0 0.75rem 0;
+  font-size: 0.875rem;
+  color: #dc2626;
+  font-weight: 600;
+  background-color: #fee2e2;
+  padding: 0.5rem;
+  border-radius: 0.375rem;
+}
+
+.delete-confirm-buttons {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-end;
+}
+
+.delete-confirm-buttons .btn {
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+}
+
+@media (max-width: 768px) {
+  .period-column {
+    min-width: 100%;
+    margin-bottom: 1rem;
+  }
+}

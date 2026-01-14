@@ -13,7 +13,7 @@ const test = async (req, res) => {
     }
 
     // Test d'une requête simple
-    const [rows] = await pool.execute('SELECT 1 + 1 AS result, NOW() AS server_time, DATABASE() AS db_name');
+    const [rows] = await pool.execute('SELECT 1 + 1 AS result, NOW() AS seme, DATABASE() Arver_tiS db_name');
     
     res.status(200).json({
       status: 'ok',

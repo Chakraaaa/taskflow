@@ -1,0 +1,47 @@
+.task-table-container {
+  background-color: #ffffff;
+  border-radius: 0.75rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  overflow-x: auto;
+}
+
+.task-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 800px;
+}
+
+.task-table thead {
+  background-color: #f9fafb;
+  border-bottom: 2px solid #e5e7eb;
+}
+
+.task-table th {
+  padding: 1rem;
+  text-align: left;
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: #374151;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.task-table tbody {
+  background-color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .task-table-container {
+    border-radius: 0.5rem;
+  }
+
+  .task-table {
+    min-width: 600px;
+  }
+
+  .task-table th {
+    padding: 0.75rem;
+    font-size: 0.75rem;
+  }
+}
+
